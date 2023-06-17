@@ -7,7 +7,7 @@ export class CorsInterceptor implements HttpInterceptor {
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     const modifiedRequest = request.clone({
       setHeaders: {
-        'Access-Control-Allow-Origin': 'https://grandtechnology.in',
+        'Access-Control-Allow-Origin': '*',
         // Add other CORS headers if required
       }
     });
