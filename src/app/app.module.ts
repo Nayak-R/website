@@ -13,11 +13,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [
-      provide: HTTP_INTERCEPTORS,
-      useClass: CorsInterceptor,
-      multi: true
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
