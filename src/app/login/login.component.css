@@ -1,0 +1,25 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .login-btm{
+    height: 40px;
+    font-size: 25px;
+    color: rgb(15, 43, 200);
+    background-color: aquamarine;
+  }
+  .login-btm:hover{
+    background-color: rgb(40, 227, 165);
+  }
+  .login-btm-css{
+    display: flex;
+    margin: 10px;
+  }
+  .example-full-width {
+    width: 100%;
+  }
+
+  
